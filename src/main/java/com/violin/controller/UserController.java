@@ -3,6 +3,7 @@ package com.violin.controller;
 import com.violin.model.userinfo.UserInfo;
 import com.violin.service.userinfo.UserInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/user")
 public class UserController {
     @Autowired
+    @Qualifier("userInfoService")
     private UserInfoService userInfoService;
     @RequestMapping("/")
     public String toString() {

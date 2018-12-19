@@ -6,13 +6,19 @@
 http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd ">
 
     <dubbo:application name="dsite-consumer"/>
-    <!--<dubbo:registry id="dsite" address="${dubbo.registry}"/>-->
     <dubbo:registry id="dsite" address="N/A"/>
     <dubbo:protocol name="dubbo" port="20332"/>
     <dubbo:consumer timeout="50000" />
 
 
-    <dubbo:reference  protocol="dubbo"  id="userInfoService"  interface="com.violin.service.userinfo.UserInfoService"></dubbo:reference>
-
+    <dubbo:reference   id="companyInfoService" interface="com.violin.service.companyinfo.CompanyInfoService"/>
+    <dubbo:reference   id="dictDataService" interface="com.violin.service.dictdata.DictDataService"/>
+    <dubbo:reference   id="filesService" interface="com.violin.service.files.FilesService"/>
+    <dubbo:reference   id="masterInfoService" interface="com.violin.service.masterinfo.MasterInfoService"/>
+    <dubbo:reference   id="newsService" interface="com.violin.service.news.NewsService"/>
+    <dubbo:reference   id="productTypeService" interface="com.violin.service.producttype.ProductTypeService"/>
+    <dubbo:reference   id="userAccountService" interface="com.violin.service.useraccount.UserAccountService"/>
+    <dubbo:reference   id="userInfoService" interface="com.violin.service.userinfo.UserInfoService"/>
+    <dubbo:reference   id="violinInfoService" interface="com.violin.service.violininfo.ViolinInfoService"/>
 </beans>
 

@@ -20,8 +20,9 @@
     <springframework.version>4.3.16.RELEASE</springframework.version>
     <spring.version>4.3.16.RELEASE</spring.version>
     <org.aspectj.version>1.7.3</org.aspectj.version>
-    <dubbo.version>2.6.2</dubbo.version>
     <log4j.version>2.11.1</log4j.version>
+    <zookeeper.version>3.4.13</zookeeper.version>
+    <dubbo.version>2.6.4</dubbo.version>
   </properties>
 
   <dependencies>
@@ -30,6 +31,13 @@
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
+    </dependency>
+
+
+    <dependency>
+      <groupId>org.apache.zookeeper</groupId>
+      <artifactId>zookeeper</artifactId>
+      <version>${zookeeper.version}</version>
     </dependency>
 
     <dependency>
@@ -118,7 +126,22 @@
     </dependency>
 
 
+    <dependency>
+      <groupId>org.apache.shiro</groupId>
+      <artifactId>shiro-core</artifactId>
+      <version>1.4.0</version>
+    </dependency>
 
+    <dependency>
+      <groupId>org.apache.shiro</groupId>
+      <artifactId>shiro-spring</artifactId>
+      <version>1.4.0</version>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>4.0.1</version>
+    </dependency>
 
   </dependencies>
 
