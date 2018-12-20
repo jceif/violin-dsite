@@ -1,1063 +1,1014 @@
+﻿<%@ page contentType="text/html; charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
+<c:set var="ctx" value="${pageContext.request.contextPath}"/>
 <!DOCTYPE html>
 <html>
 
-<!-- Mirrored from symphony.com/zh by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Dec 2018 02:02:30 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"/>
+    <title>关于我们-三一互联网服务</title>
+    <meta name="description" content="三一互联网,三一互联网平台,三一互联网网站,三一互联网官网,三一互联网官方网站,三一互联网首页"/>
+    <meta name="keywords" content="三一互联网,三一互联网平台,三一互联网网站,三一互联网官网,三一互联网官方网站,三一互联网首页"/>
 
-	<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="${ctx}/assets/templets/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <link href="${ctx}/assets/templets/scss/style.min.css" type="text/css" rel="stylesheet"/>
+    <link href="${ctx}/assets/templets/css/startcom.css" type="text/css" rel="stylesheet"/>
+    <link href="${ctx}/assets/templets/scss/index.min.css" type="text/css" rel="stylesheet"/>
+    <!--手机背景 图片切换 js -->
+    <script type="text/javascript" src="${ctx}/assets/templets/javascript/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="${ctx}/assets/templets/javascript/jquery.touchSlider.js"></script>
+    <script src="${ctx}/assets/templets/javascript/script-about.js" type="text/javascript"></script><!--pc端图片切换js-->
 
-<!-- favicon -->
-<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon8f14.png?v=5AeNxyRnxP">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x328f14.png?v=5AeNxyRnxP">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x168f14.png?v=5AeNxyRnxP">
-<link rel="manifest" href="site8f14.html?v=5AeNxyRnxP">
-<link rel="mask-icon" href="safari-pinned-tab8f14.svg?v=5AeNxyRnxP" color="#2A578A">
-<link rel="shortcut icon" href="favicon8f14.ico?v=5AeNxyRnxP">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="theme-color" content="#ffffff">
-
-<title>Secure Team Collaboration | Symphony</title>
-<meta name="description" content="Connect with everyone you need to grow your business using secure team collaboration. Learn More.">
-
-<!-- Google site verification -->
-<meta name="google-site-verification" content="EdQPamCoXOPpI4rFgc6ilE5VtIaI2dn9k4iSvGJDJzc" />
-
-<!-- App Store -->
-<meta name="apple-itunes-app" content="app-id=1098963705, affiliate-data=ct=ios_symphcom_smartbanner&pt=117810669"/>
-
-<!-- Open Graph meta tags -->
-<meta property="og:type" content="website" />
-<meta property="og:url" content="zh.html" />
-<meta property="og:title" content="Secure Team Collaboration | Symphony" />
-<meta property="og:description" content="Connect with everyone you need to grow your business using secure team collaboration. Learn More." />
-<meta property="og:image" content="../assets/images/social/symphony-1104x736.png" />
-
-<!-- crazyegg -->
-<script type="text/javascript" src="../assets/js/4005.js" async="async"></script>
-
-<!-- . Google fonts -->
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
-
-<!-- Styles -->
-<link href="../assets/css/app-131d39c131.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="../assets/css/font-awesome.min.css">
-<link href="../assets/css/swiper.min.css" rel="stylesheet" type="text/css">
-
-<!-- Revolution Slider -->
-<link rel="stylesheet" type="text/css" href="../assets/css/settings.css">
-<link rel="stylesheet" type="text/css" href="../assets/css/navigation.css">
+    <!-- 有手机背景的js end -->
+    <style type="text/css">
+        .team_main_image {
+            overflow: hidden;
+            min-height: 187px;
+        }
 
 
-<script src="../assets/js/vendor-97d468f2d0.js"></script>
-
-<!-- vwo -->
-<script type='text/javascript'>
-var _vwo_code=(function(){
-var account_id=247535,
-settings_tolerance=2000,
-library_tolerance=2500,
-use_existing_jquery=false,
-/* DO NOT EDIT BELOW THIS LINE */
-f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('http://dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
-</script>
-
-<!-- segment -->
-<script type="text/javascript">
-!function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
-analytics.load("h3N5i2IjmWmjq1BbXR3EfTNKwxjb1m6t");
-analytics.page()
-}}();
-</script>
-
-<script src="../assets/js/app-a9457f4e42.js"></script>
-
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
 
 
-<!-- heap -->
-<script type="text/javascript">
-window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};
-var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
-heap.load("2018322826");
-</script>
+
+        @media (device-width: 320px) {
+            .team_main_image {
+                min-height: 166px;
+            }
+        }
+
+        @media (device-width: 411px) {
+            .team_main_image {
+                min-height: 213px;
+            }
+        }
+
+        @media (device-width: 412px) {
+            .team_main_image {
+                min-height: 213px;
+            }
+        }
+
+        @media (device-width: 600px) {
+            .team_main_image {
+                min-height: 311px;
+            }
+        }
+
+        @media (device-height: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+            /* 兼容iphone4/4s */
+            .team_main_image {
+                min-height: 166px;
+            }
+        }
+
+
+
+
+
+
+        .team_main_image ul li {
+            width: 100%;
+            overflow: auto;
+        }
+
+        .team_main_visual {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+        }
+
+        .team_textbox {
+            background-color: rgba(59, 190, 122, .85);
+            padding: 10px;
+        }
+
+        .mb-inav-about li div {
+            width: 40px;
+            height: 2px;
+            background-color: rgba(170, 170, 170, .5);
+            margin: 2px 10px 0 0;
+        }
+
+        .mb-inav-about li div.cur {
+            background-image: url("${ctx}/assets/templets/img/switch.svg");
+            background-repeat: no-repeat;
+            width: 40px;
+            height: 8px;
+            background-size: 40px 8px;
+            background-color: transparent;
+            margin-top: -3px;
+        }
+
+        .item-li {
+            transition: none;
+        }
+
+        .item-li:hover {
+            cursor: pointer;
+        }
+
+        .mb-describe {
+            background-color: rgba(59, 190, 122, .85);
+            padding: 0;
+            color: #fff;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .kePublic-rightdiv {
+            padding: 0 5%;
+            text-align: center;
+            margin-top: 27% \9;
+        }
+
+        @media only screen and (max-width: 992px) and (min-width: 768px) {
+            .kePublic-rightdiv {
+                padding: 0;
+            }
+        }
+
+        .tuandui-title {
+            font-size: 18px;
+            margin: 9% 0 5%;
+        }
+
+        .kePublic-cont-info {
+            font-size: 14px;
+            color: rgba(255, 255, 255, .8);
+        }
+
+        .jiankangguwen-ico {
+            background-repeat: no-repeat;
+            background-image: url("${ctx}/assets/templets/img/jiankangguwen-ico.png");
+            background-size: 64px 64px;
+            height: 64px;
+            width: 64px;
+            margin: auto;
+        }
+
+        .xietiaozhuanyuan-ico {
+            background-repeat: no-repeat;
+            background-image: url("${ctx}/assets/templets/img/xietiaozhuanyuan-ico.png");
+            background-size: 64px 64px;
+            height: 64px;
+            width: 64px;
+            margin: auto;
+        }
+
+        .jiatingyisheng-ico {
+            background-repeat: no-repeat;
+            background-image: url("${ctx}/assets/templets/img/jiatingyisheng-ico.png");
+            background-size: 64px 64px;
+            height: 64px;
+            width: 64px;
+            margin: auto;
+        }
+
+        .tuhuandaifu-ico {
+            background-repeat: no-repeat;
+            background-image: url("${ctx}/assets/templets/img/tuhuandaifu-ico.png");
+            background-size: 64px 64px;
+            height: 64px;
+            width: 64px;
+            margin: auto;
+        }
+
+        .mb-news {
+            padding: 0 15px;
+            line-height: 1.8;
+            position: absolute;
+            left: 417px;
+            top: 150px;
+        }
+
+        .mb-news h4 {
+            word-break: break-all;
+            word-wrap: break-word;
+        }
+
+        .mb-news h4 a {
+            font-size: 18px;
+            color: #8c3608;
+            line-height: 1.6;
+            word-break: break-all;
+            word-wrap: break-word;
+        }
+
+        .mb-news p {
+            font-size: 14px;
+            color: #444;
+            margin-top: 15px;
+            overflow: hidden;
+        }
+
+        .mb-news h4 a:hover {
+            text-decoration: underline;
+        }
+
+        .mb-img {
+            width: 100%;
+            position: relative;
+        }
+
+        .mb-ibox {
+            width: 100%;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .mb-ibox a {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 5;
+            left: 0;
+            top: 0;
+            display: block;
+        }
+
+        .mb-ibox a:first-child {
+            z-index: 6;
+        }
+
+        .mb-ibox a.move {
+            z-index: 8;
+            position: relative;
+        }
+
+        .mb-ibox a.cur {
+            z-index: 8;
+            position: relative;
+        }
+
+        .mb-inav-about {
+            z-index: 10 !important;
+            width: 210px;
+            overflow: hidden;
+            margin: 0 auto;
+            margin-top: 4.5%;
+            padding-top: 4px;
+        }
+
+        .mb-inav-about li {
+            float: left;
+        }
+
+        div.flicking_con {
+            text-align: center;
+            margin: 0 0 0 0;
+            left: 0;
+            width: 100%;
+            height: 149px;
+        }
+
+        div.flicking_con .item-text {
+            padding: 0;
+            display: none;
+            color: #fff;
+        }
+
+        div.flicking_con .item-text h4 {
+            color: #fff;
+            width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            margin-bottom: 10px;
+        }
+
+        .team_main_visual .flicking_con div.on {
+            display: block;
+        }
+
+        .kePublic-cont-text {
+            font-size: 12px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
+            word-wrap: break-word;
+        }
+
+        .delay_1 {
+            -webkit-animation-delay: 200ms;
+            -o-animation-delay: 200ms;
+            animation-delay: 200ms;
+        }
+
+        .delay_2 {
+            -webkit-animation-delay: 400ms;
+            -o-animation-delay: 400ms;
+            animation-delay: 400ms;
+        }
+
+        .delay_3 {
+            -webkit-animation-delay: 600ms;
+            -o-animation-delay: 600ms;
+            animation-delay: 600ms;
+        }
+
+        .animateUpDown {
+            -webkit-animation-name: animateUpDown;
+            -o-animation-name: animateUpDown;
+            animation-name: animateUpDown;
+            -webkit-animation-duration: 900ms;
+            -o-animation-duration: 900ms;
+            animation-duration: 900ms;
+        }
+
+
+
+
+
+        .animateUp {
+            -webkit-animation-name: animateUp;
+            -o-animation-name: animateUp;
+            animation-name: animateUp;
+            -webkit-animation-duration: 500ms;
+            -o-animation-duration: 500ms;
+            animation-duration: 500ms;
+            -webkit-animation-timing-function: cubic-bezier(.39, .575, .565, 1);
+            -o-animation-timing-function: cubic-bezier(.39, .575, .565, 1);
+            animation-timing-function: cubic-bezier(.39, .575, .565, 1);
+        }
+
+
+
+
+
+        .cur1 .ShowBgUp {
+            -webkit-animation-name: ShowBgUp;
+            -o-animation-name: ShowBgUp;
+            animation-name: ShowBgUp;
+            -webkit-animation-duration: 1400ms;
+            -o-animation-duration: 1400ms;
+            animation-duration: 1400ms;
+            -webkit-animation-timing-function: cubic-bezier(.39, .575, .565, 1);
+            -o-animation-timing-function: cubic-bezier(.39, .575, .565, 1);
+            animation-timing-function: cubic-bezier(.39, .575, .565, 1);
+        }
+
+        @-webkit-keyframes ShowBgUp {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @-o-keyframes ShowBgUp {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+
+
+
+
+        .cur .ShowBgUp {
+            z-index: 10;
+        }
+    </style>
+    <style type="text/css">
+        /*banner css start*/
+        #banner .banner-item .banner-text > div:first-child {
+            font-size: 48px;
+        }
+
+        #banner .banner-item em {
+            font-size: 66px;
+        }
+
+        #banner .banner-item .banner-text > div:last-child {
+            font-size: 20px;
+        }
+
+        #banner .banner-item:nth-child(1) .banner-img {
+            background-image: url(${ctx}/assets/templets/banner/img/future-start-banner.jpg);
+        }
+
+        #banner .banner-item:nth-child(2) .banner-img {
+            background-image: url(${ctx}/assets/templets/banner/img/about-us-banner.jpg);
+        }
+
+        #banner .banner-item:nth-child(3) .banner-img {
+            background-image: url(${ctx}/assets/templets/banner/img/about-us-banner-2.jpg);
+        }
+
+        @media (-webkit-min-device-pixel-ratio: 2) {
+            #banner .banner-item:nth-child(1) .banner-img {
+                background-image: url(${ctx}/assets/templets/banner/img/future-start-banner-2x.jpg) !important;
+            }
+
+            #banner .banner-item:nth-child(2) .banner-img {
+                background-image: url(${ctx}/assets/templets/banner/img/about-us-banner-2x.jpg) !important;
+            }
+
+            #banner .banner-item:nth-child(3) .banner-img {
+                background-image: url(${ctx}/assets/templets/banner/img/about-us-banner-2x-2.jpg) !important;
+            }
+        }
+
+        @media (max-width: 767px) {
+            #banner .banner-item .banner-text > div > div[data-role='entext'] {
+                padding: 0 !important;
+            }
+
+            #banner .banner-item .banner-text > div:first-child {
+                font-size: 24px;
+            }
+
+            #banner .banner-item em {
+                font-size: 20px;
+            }
+
+            #banner .banner-item .banner-text > div:last-child {
+                font-size: 10px;
+            }
+
+            #banner .banner-item:nth-child(1) .banner-img {
+                background-image: url(${ctx}/assets/templets/banner/img/future-start-banner-app.jpg) !important;
+            }
+
+            #banner .banner-item:nth-child(2) .banner-img {
+                background-image: url(${ctx}/assets/templets/banner/img/about-us-banner-app.jpg) !important;
+            }
+
+            #banner .banner-item:nth-child(3) .banner-img {
+                background-image: url(${ctx}/assets/templets/banner/img/about-us-banner-app-2.jpg) !important;
+            }
+        }
+
+        /*banner css end*/
+        .team-person {
+            position: relative;
+            margin: 0 20px;
+        }
+
+        .slideup_info p {
+            color: #333;
+            margin-bottom: 0;
+        }
+
+        .slideup_info {
+            color: #666;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 3;
+            opacity: 0;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            background-color: #fff;
+            transition: all 0.4s ease-in-out;
+        }
+
+        .team-person.hover .slideup_info {
+            opacity: 0.9;
+        }
+
+        .team-person > div img {
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .team-person.hover > div img {
+            transform: scale(1.02);
+            -webkit-filter: blur(4px);
+            -moz-filter: blur(4px);
+            -ms-filter: blur(4px);
+            -webkit-filter: blur(4px);
+            filter: blur(4px);
+        }
+
+        .leader-line {
+            border-top: 1px solid #3bbe7a;
+            width: 70px;
+            margin: 25px auto;
+        }
+
+        .slideup_info_bg {
+            border: 4px solid rgba(59, 190, 122, .7);
+            height: 100%;
+            display: -webkit-flex;
+            display: flex;
+            flex-flow: column;
+            -webkit-align-items: center;
+            align-items: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+        }
+
+        .i-item-con-div {
+            transition: all 0.4s ease-in-out;
+            padding: 3% 0;
+            background-color: rgba(255, 255, 255, .98);
+        }
+
+        .team-person.hover .i-item-con-div {
+            opacity: 0;
+        }
+
+        .slideup_info ul {
+            margin: 0;
+        }
+
+        .slideup_info ul li {
+            line-height: 26px;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .col-small-12 {
+                width: 100%;
+            }
+
+            .team-person {
+                position: relative;
+                margin: 10px 0;
+            }
+
+            .itme-con {
+                padding: 15px 0;
+            }
+
+            .leader-line {
+                margin: 13px auto 10px;
+            }
+        }
+
+        .banner .banner-item .banner-text > div {
+            margin-top: 18% \9; /*兼容IE6 IE7 IE8*/
+        }
+
+        .slideup_info_bg > div {
+            margin-top: 32% \9; /*兼容IE6 IE7 IE8*/
+        }
+
+        .banner .banner-item .banner-img.other:before {
+            background-color: transparent !important;
+        }
+
+        /*新增banner字体*/
+        #banner .banner-item .banner-text > div > div#smallfont {
+            font-size: 25px;
+            font-weight: normal;
+            color: #fff;
+            background-color: rgba(59, 190, 122, .9);
+            display: inline;
+            text-align: center;
+            border-radius: 2px;
+            padding: 5px 10px;
+        }
+
+        #banner .banner-item .banner-text > div > div#future-banner-font {
+            margin-left: -5%
+        }
+
+        #banner .banner-item .banner-text > div > div#future-banner-font, #banner .banner-item .banner-text > div > div#future-banner-font-o {
+            text-align: left;
+            font-size: 50px;
+            color: #676767
+        }
+
+        #banner .banner-item .banner-text #other {
+            margin: 0 auto;
+        }
+
+        @media (max-width: 1152px) {
+            #banner .banner-item .banner-text > div > div#smallfont {
+                font-size: 20px;
+            }
+
+            #banner .banner-item .banner-text > div > div#future-banner-font, #banner .banner-item .banner-text > div > div#future-banner-font-o {
+                font-size: 40px;
+            }
+        }
+
+        @media (max-width: 1024px) {
+            #banner .banner-item .banner-text > div > div#smallfont {
+                font-size: 16px;
+            }
+
+            #banner .banner-item .banner-text > div > div#future-banner-font, #banner .banner-item .banner-text > div > div#future-banner-font-o {
+                font-size: 30px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            #banner .banner-item .banner-text #other {
+                margin-left: 15px;
+            }
+
+            #banner .banner-item .banner-text > div > div#smallfont {
+                font-size: 12px;
+            }
+
+            #banner .banner-item .banner-text > div > div#future-banner-font, #banner .banner-item .banner-text > div > div#future-banner-font-o {
+                font-size: 26px;
+            }
+        }
+
+        @media (max-width: 640px) {
+            #banner .banner-item .banner-text > div > div#smallfont {
+                font-size: 12px;
+            }
+
+            #banner .banner-item .banner-text > div > div#future-banner-font, #banner .banner-item .banner-text > div > div#future-banner-font-o {
+                font-size: 24px;
+            }
+        }
+
+        @media (max-width: 640px) {
+            #banner .banner-item .banner-text > div > div#smallfont {
+                font-size: 12px;
+            }
+
+            #banner .banner-item .banner-text > div > div#future-banner-font, #banner .banner-item .banner-text > div > div#future-banner-font-o {
+                font-size: 24px;
+            }
+        }
+
+        @media (max-width: 520px) {
+            #banner .banner-item .banner-text > div > div#smallfont {
+                font-size: 12px;
+            }
+
+            #banner .banner-item .banner-text > div > div#future-banner-font, #banner .banner-item .banner-text > div > div#future-banner-font-o {
+                font-size: 18px;
+            }
+        }
+
+        @media (max-width: 410px) {
+            #banner .banner-item .banner-text > div > div#smallfont {
+                font-size: 12px;
+            }
+
+            #banner .banner-item .banner-text > div > div#future-banner-font, #banner .banner-item .banner-text > div > div#future-banner-font-o {
+                font-size: 16px;
+            }
+
+        }
+    </style>
+
 </head>
+<body>
+<link rel="shortcut icon" href="favicon1.html" type="image/x-icon"/>
+<nav class="navbar navbar-default navbar-fixed-top u-navbar">
+    <div class="container">
+        <div class="row">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar icon-bar1"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar icon-bar2"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <figure class="ac-logo-icon pc-none"></figure>
+                    <div class="logo-pc-div app-none">
+                        <figure class="ac-familybrowser-icon"></figure>
+                    </div>
+                </a>
+            </div>
+            <div class="navbar-collapse collapse navbar-right" style="height: auto;">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
 
-<body class="sym-home">
+                    <li class='click'><a href='aboutus/index.html'>关于我们</a>
+                        <p class='line-top'></p></li>
 
-						<nav class="navbar navbar-inverse navbar-fixed-top sym-navbar-top sym-nav-white sym-nav-home">
-  <div class="container-fluid">
-    
-    <div class="navbar-header">
+                    <li><a href="case/index.html">三一案例</a></li>
 
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sym-scrollspy" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
 
-      <a class="navbar-brand sym-scroll" href="zh.html"></a>
-      <img src="../assets/images/web/logo/symphony-logo-nav-light.svg" style="display: none;">
+                    <li><a href="corevalue/index.html">三一价值</a></li>
+
+
+                    <li><a href="contactus/index.html">联系我们</a></li>
+
+                </ul>
+
+              
+            </div>
+        </div>
+    </div>
+</nav>
+<!--banner start-->
+<link rel="stylesheet" type="text/css" href="${ctx}/assets/templets/banner/css/animate.min.css">
+<link rel="stylesheet" type="text/css" href="${ctx}/assets/templets/banner/css/banner.min.css">
+<link rel="stylesheet" type="text/css" href="${ctx}/assets/templets/banner/css/style.css">
+
+<div id="banner" class="banner">
+    <div class="banner-item animated" data-classin="fadeIn" data-classout="fadeOut delay10" data-time="400"
+         data-thumb="/${ctx}/assets/templets/banner/img/future-start-banner1-2x-small.jpg">
+        <div class="banner-img other"></div>
+
+            <div class="banner-text vbox  box-v-center">
+                <div class="container" id="other">
+                    <div class="animated" data-classin="fadeInDown delay5 duration5"
+                         data-classout="fadeOutUp delay duration5" id="future-banner-font">
+                        三一金服<br/>
+                    </div>
+                    <div data-role="entext" class="animated " id="future-banner-font-o"
+                         data-classin="fadeInUp delay7 duration5"
+                         data-classout="fadeOutDown delay duration5" style="margin-bottom: 3%">
+                        智慧 服务与创新
+                    </div>
+                    <div class="animated" id="smallfont" data-classin="fadeInUp delay9 duration5"
+                         data-classout="fadeOutDown delay duration7">
+                        智慧桥梁,更好的选择
+                    </div>
+                </div>
+            </div>
 
     </div>
-
-    <div class="collapse navbar-collapse" id="sym-scrollspy">
-
-      <ul class="nav navbar-nav navbar-right">
-
-                <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-globe" aria-hidden="true"></i> <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="en-US.html">English </a></li>
-            <li><a href="ja.html">Japanese (日本語) </a></li>
-          </ul>
-        </li>
-        
-        <li class="dropdown">
-          <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Product <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="product/messaging-and-productivity.html">Messaging and Productivity</a></li>
-            <li><a href="zh/product/security-and-compliance.html">Security and Compliance</a></li>
-            <li><a href="product/meetings.html">Meetings</a></li>
-            <li><a href="https://workflow.symphony.com/">App Directory</a></li>
-            <li><a href="download.html">Download</a></li>
-            <li><a href="zh/product/pricing.html">Pricing</a></li>
-          </ul>
-        </li>
-
-        <li class="dropdown">
-          <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Solutions <span class="caret"></a>
-          <ul class="dropdown-menu">
-            <li><a href="solutions.html">Financial Services</a></li>
-            <li><a href="solutions/financial-services/sales-and-trading.html">&rsaquo;&nbsp;&nbsp;&nbsp;Sales &amp; Trading</a></li>
-            <li><a href="solutions/financial-services/analysts.html">&rsaquo;&nbsp;&nbsp;&nbsp;Analysts</a></li>
-            <li><a href="solutions/financial-services/operations.html">&rsaquo;&nbsp;&nbsp;&nbsp;Operations</a></li>
-            <li><a href="solutions/financial-services/portfolio-managers.html">&rsaquo;&nbsp;&nbsp;&nbsp;Portfolio Managers</a></li>
-            <li><a href="solutions/financial-services/executives.html">&rsaquo;&nbsp;&nbsp;&nbsp;Executives</a></li>
-            <li><a href="solutions/financial-services/legal.html">&rsaquo;&nbsp;&nbsp;&nbsp;Legal</a></li>
-            <li><a href="solutions/financial-services/hedge-funds.html">&rsaquo;&nbsp;&nbsp;&nbsp;Hedge Funds</a></li>
-            <li><a href="solutions/financial-services/asset-management.html">&rsaquo;&nbsp;&nbsp;&nbsp;Asset Management</a></li>
-            <li><a href="solutions/insurance.html">Insurance</a></li>
-            <li><a href="solutions/law-firms.html">Law Firms</a></li>
-          </ul>
-        </li>
-        
-        <li class="dropdown">
-          <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Company <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="press/news.html">Press</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="company/organization.html">Organization</a></li>
-            <li><a href="company/careers.html">Careers</a></li>
-            <li><a href="company/innovation-award.html">Innovation Award</a></li>
-            <li><a href="zh/contact-us.html">Contact Us</a></li>
-          </ul>
-        </li>
-
-        <li><a href="blog.html">Blog</a></li>
-
-        <li><a href="sign-in.html" data-sym-event-action="Clicked Sign In" data-sym-event-category="External Links">Sign In</a></li>
-
-        <li id="sym-nav-signup">
-          <div class="btn-group btn-block">
-            <a href="signup.html" class="btn btn-block btn-default-ghost" data-sym-event-action="Clicked Sign Up (Top Nav)" data-sym-event-category="External Links">Try it Now</a>
-          </div>
-        </li>
-
-      </ul>
-
-    </div><!--/.collapse-->
-
-  </div>
-</nav>			
-	
-<div id="sym-slider-wrap">
-<div class="rev_slider_wrapper fullwidthbanner-container">
-	<!-- START REVOLUTION SLIDER -->
-	<div id="rev_slider" class="rev_slider fullwidthabanner" data-version="5.4.8">
-		<ul>
-
-
-			<!--
-			====================
-						Slide 1
-			====================
-			-->
-			<li class="slide-quote slide-quote-bnp-paribas"
-				data-thumb="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-				data-index="slide-quote-bnp-paribas"
-				data-transition="fade"
-				data-easein="default"
-				data-easeout="default">
-
-				<!-- Main image -->
-				<img src="../assets/images/product/home/slider-background.jpg" class="rev-slidebg">
-
-				<!-- Layer 1 (Title) -->
-				<div class="tp-caption title"
-					data-responsive_offset="off"
-					data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":500,"ease":"Power3.easeInOut"},{"delay":"wait","speed":200,"to":"o:0","ease":"nothing"}]'
-					data-width="['auto','auto','auto','96%','90%','94%']"
-					data-x="['left','left','left','center','center','center']"
-					data-y="top"
-					data-hoffset="[48,48,48,-2%,-5%,-3%]"
-					data-voffset="[118,118,136,60,48,42]"
-					data-whitespace="normal"
-					data-fontsize="[62,62,42,42,40,32]">
-						<span>Digital Transformation with</span> Secure Team Collaboration
-				</div>
-
-				<!-- CTA Buttons -->
-				<div class="tp-caption"
-					data-type="shape"
-					data-responsive_offset="on"
-					data-frames='[{"delay":1600,"speed":1000,"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":200,"to":"o:0","ease":"nothing"}]'
-					data-width="['220','220','220','80%','80%','90%']"
-					data-x="['left','left','left','left','center','center']"
-					data-y="top"
-					data-hoffset="[40,40,40,60,0%,0%]"
-					data-voffset="[372,384,306,696,732,780]"
-					data-paddingtop="8"
-					data-paddingright="8"
-					data-paddingbottom="8"
-					data-paddingleft="8"
-					data-whitespace="normal"
-					data-textAlign="['inherit','inherit','inherit','center','center','center']"
-					style="overflow:visible;">
-						<a href="documents/risknet-symphony-bots-march-on-bloomberg.pdf"
-							target="_blank"
-							class="material-button-raised"
-							style="display:block"
-							data-sym-event-category="CTAs"
-							data-sym-event-action="Hero CTA Read Article">Read Article</a>
-				</div>
-
-				<div class="tp-caption"
-					data-type="shape"
-					data-responsive_offset="on"
-					data-frames='[{"delay":1700,"speed":1000,"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":200,"to":"o:0","ease":"nothing"}]'
-					data-width="['220','220','220','80%','80%','90%']"
-					data-x="['left','left','left','right','center','center']"
-					data-y="top"
-					data-hoffset="[268,268,268,60,0%,0%]"
-					data-voffset="[372,384,306,696,806,844]"
-					data-paddingtop="8"
-					data-paddingright="8"
-					data-paddingbottom="8"
-					data-paddingleft="8"
-					data-whitespace="normal"
-					data-textAlign="['inherit','inherit','inherit','center','center','center']"
-					style="overflow:visible;">
-						<a href="#"
-							class="material-button-raised"
-							style="display:block"
-							class="btn btn-primary-home sym-cta-contact"
-							data-sym-event-category="CTAs"
-							data-sym-event-action="Hero CTA Contact Us"
-							data-toggle="modal"
-							data-target="#sym-modal-contact-form-generic">Contact Us</a>
-				</div>
-
-				<!-- Quote Card -->
-				<div class="tp-caption tp-resizeme quote-card"
-					id="quote-card-bnp-paribas"
-					data-type="shape"
-					data-responsive_offset="on"
-					data-frames='[{"delay":1500,"speed":1000,"from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":400,"frame":"700","to":"auto:auto","ease":"Power3.easeInOut"}]'
-					data-width="['auto','auto','auto','96%','96%','96%']"
-					data-height="['auto','auto','auto','408','460','524']"
-					data-x="['right','right','right','center','center','center']"
-					data-y="['top','top','top','top','top','top']"
-					data-hoffset="[40,40,40,-2%,-2%,-2%]"
-					data-voffset="[118,118,98,240,268,218]"
-					data-whitespace="normal"
-					data-textAlign="center">
-						<div class="avatar"></div>
-						<img class="left-quote" src="../assets/images/product/home/left-quote.svg" />
-						<blockquote class="customer-quote">[Symphony is] easy to use and has lots of functionality. Essentially it allows you to create a collaborative forum generating communication and overall workflows efficiencies in an open and shared framework.</blockquote>
-						<span class="customer-name">Olivier Osty</span>
-						<span class="customer-title">Head of Global Markets</span>
-						<img class="logo" src="../assets/images/product/home/bnp-paribas-logo.svg">
-				</div>
-
-			</li><!--/Slide 1-->
-
-
-
-			<!--
-			============================
-						Slide 2 (Natixis)
-			============================
-			-->
-			<li class="slide-quote slide-quote-natixis"
-				data-thumb="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-				data-transition="fade"
-				data-easein="default"
-				data-easeout="default">
-
-				<!-- Main image -->
-				<img src="../assets/images/product/home/slider-background.jpg" class="rev-slidebg">
-
-				<!-- Title -->
-				<div class="tp-caption title"
-					data-responsive_offset="off"
-					data-frames='[{"delay":0,"speed":0,"from":"o:1","to":"o:1;","ease":"nothing"},{"delay":"wait","speed":0,"to":"auto:auto;","ease":"nothing"}]'
-					data-width="['auto','auto','auto','96%','90%','94%']"
-					data-x="['left','left','left','center','center','center']"
-					data-y="top"
-					data-hoffset="[48,48,48,-2%,-5%,-3%]"
-					data-voffset="[118,118,136,60,48,42]"
-					data-whitespace="normal"
-					data-fontsize="[62,62,42,42,40,32]">
-						<span>Digital Transformation with</span> Secure Team Collaboration
-				</div>
-
-				<!-- CTA Buttons -->
-				<div class="tp-caption"
-					data-type="shape"
-					data-responsive_offset="on"
-					data-frames='[{"delay":0,"speed":0,"frame":"0","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-					data-width="['220','220','220','80%','80%','90%']"
-					data-x="['left','left','left','left','center','center']"
-					data-y="top"
-					data-hoffset="[40,40,40,60,0%,0%]"
-					data-voffset="[372,384,306,696,732,780]"
-					data-paddingtop="8"
-					data-paddingright="8"
-					data-paddingbottom="8"
-					data-paddingleft="8"
-					data-whitespace="normal"
-					data-textAlign="['inherit','inherit','inherit','center','center','center']"
-					style="overflow:visible;">
-						<a href="documents/risknet-symphony-bots-march-on-bloomberg.pdf"
-							target="_blank"
-							class="material-button-raised"
-							style="display:block"
-							data-sym-event-category="CTAs"
-							data-sym-event-action="Hero CTA Read Article">Read Article</a>
-				</div>
-
-				<div class="tp-caption"
-					data-type="shape"
-					data-responsive_offset="on"
-					data-frames='[{"delay":0,"speed":0,"frame":"0","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-					data-width="['220','220','220','80%','80%','90%']"
-					data-x="['left','left','left','right','center','center']"
-					data-y="top"
-					data-hoffset="[268,268,268,60,0%,0%]"
-					data-voffset="[372,384,306,696,806,844]"
-					data-paddingtop="8"
-					data-paddingright="8"
-					data-paddingbottom="8"
-					data-paddingleft="8"
-					data-whitespace="normal"
-					data-textAlign="['inherit','inherit','inherit','center','center','center']"
-					style="overflow:visible;">
-						<a href="#"
-							class="material-button-raised"
-							style="display:block"
-							class="btn btn-primary-home sym-cta-contact"
-							data-sym-event-category="CTAs"
-							data-sym-event-action="Hero CTA Contact Us"
-							data-toggle="modal"
-							data-target="#sym-modal-contact-form-generic">Contact Us</a>
-				</div>
-
-				<!-- Layer 3 (Quote Card) -->
-				<div class="tp-caption tp-resizeme quote-card"
-					data-responsive_offset="on"
-					data-frames='[{"delay":400,"speed":1000,"from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"to":"x:50px;opacity:0;","ease":"Power3.easeInOut"}]'
-					data-width="['auto','auto','auto','96%','96%','96%']"
-					data-height="['auto','auto','auto','408','460','524']"
-					data-x="['right','right','right','center','center','center']"
-					data-y="['top','top','top','top','top','top']"
-					data-hoffset="[40,40,40,-2%,-2%,-2%]"
-					data-voffset="[118,118,98,240,268,218]"
-					data-whitespace="normal"
-					data-textAlign="center">
-						<div class="avatar"></div>
-						<img class="left-quote" src="../assets/images/product/home/left-quote.svg" />
-						<blockquote class="customer-quote">[Symphony is] a simpler way of getting prices to clients, eliminating the cumbersome back and forth that can hopscotch across up to 20 separate applications&hellip;a 15 minute per client process now takes just a few seconds per client.</blockquote>
-						<span class="customer-name">Cindy Amar</span>
-						<span class="customer-title">Head of Fixed Income Flow</span>
-						<img class="logo" src="../assets/images/product/home/natixis-logo.svg">
-				</div>
-
-			</li><!--/Slide 2-->
-
-
-
-			<!--
-			====================
-						Slide 3
-			====================
-			-->
-			<li class="slide-quote slide-quote-jpm"
-				data-thumb="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-				data-transition="fade"
-				data-easein="default"
-				data-easeout="default">
-
-				<!-- Main image -->
-				<img src="../assets/images/product/home/slider-background.jpg" class="rev-slidebg">
-
-				<!-- Title -->
-				<div class="tp-caption title"
-					data-responsive_offset="off"
-					data-frames='[{"delay":0,"speed":0,"frame":"0","from":"o:1","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-					data-width="['auto','auto','auto','96%','90%','94%']"
-					data-x="['left','left','left','center','center','center']"
-					data-y="top"
-					data-hoffset="[48,48,48,-2%,-5%,-3%]"
-					data-voffset="[118,118,136,60,48,42]"
-					data-whitespace="normal"
-					data-fontsize="[62,62,42,42,40,32]">
-						<span>Digital Transformation with</span> Secure Team Collaboration
-				</div>
-
-				<!-- CTA Buttons -->
-				<div class="tp-caption"
-					data-type="shape"
-					data-responsive_offset="on"
-					data-frames='[{"delay":0,"speed":0,"frame":"0","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-					data-width="['220','220','220','80%','80%','90%']"
-					data-x="['left','left','left','left','center','center']"
-					data-y="top"
-					data-hoffset="[40,40,40,60,0%,0%]"
-					data-voffset="[372,384,306,696,732,780]"
-					data-paddingtop="8"
-					data-paddingright="8"
-					data-paddingbottom="8"
-					data-paddingleft="8"
-					data-whitespace="normal"
-					data-textAlign="['inherit','inherit','inherit','center','center','center']"
-					style="overflow:visible;">
-						<a href="documents/risknet-symphony-bots-march-on-bloomberg.pdf"
-							target="_blank"
-							class="material-button-raised"
-							style="display:block"
-							data-sym-event-category="CTAs"
-							data-sym-event-action="Hero CTA Read Article">Read Article</a>
-				</div>
-
-				<div class="tp-caption"
-					data-type="shape"
-					data-responsive_offset="on"
-					data-frames='[{"delay":0,"speed":0,"frame":"0","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-					data-width="['220','220','220','80%','80%','90%']"
-					data-x="['left','left','left','right','center','center']"
-					data-y="top"
-					data-hoffset="[268,268,268,60,0%,0%]"
-					data-voffset="[372,384,306,696,806,844]"
-					data-paddingtop="8"
-					data-paddingright="8"
-					data-paddingbottom="8"
-					data-paddingleft="8"
-					data-whitespace="normal"
-					data-textAlign="['inherit','inherit','inherit','center','center','center']"
-					style="overflow:visible;">
-						<a href="#"
-							class="material-button-raised"
-							style="display:block"
-							class="btn btn-primary-home sym-cta-contact"
-							data-sym-event-category="CTAs"
-							data-sym-event-action="Hero CTA Contact Us"
-							data-toggle="modal"
-							data-target="#sym-modal-contact-form-generic">Contact Us</a>
-				</div>
-
-				<!-- Quote Card -->
-				<div class="tp-caption tp-resizeme quote-card"
-					data-responsive_offset="on"
-					data-frames='[{"delay":400,"speed":1000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"x:50px;opacity:0;","ease":"Power3.easeInOut"}]'
-					data-width="['auto','auto','auto','96%','96%','96%']"
-					data-height="['auto','auto','auto','408','460','524']"
-					data-x="['right','right','right','center','center','center']"
-					data-y="['top','top','top','top','top','top']"
-					data-hoffset="[40,40,40,-2%,-2%,-2%]"
-					data-voffset="[118,118,98,240,268,218]"
-					data-whitespace="normal"
-					data-textAlign="center">
-						<div class="avatar"></div>
-						<img class="left-quote" src="../assets/images/product/home/left-quote.svg" />
-						<blockquote class="customer-quote">A Symphony API enables clients to access the information at lightning speed compared with web browsing&hellip;[a] reduction from 18 seconds to 1 second across 850 analysts on behalf of 12,000 institutional clients.</blockquote>
-						<span class="customer-name">David Hudson</span>
-						<span class="customer-title">Head of Markets Execution</span>
-						<img class="logo" src="../assets/images/product/home/jp-morgan-chase-logo.svg">
-				</div>
-
-			</li><!--/Slide 3-->
-
-
-			<!--
-			========================
-			   Slide 4 (Security)
-			========================
-			-->
-			<li class="slide-benefit slide-benefit-slack"
-				data-thumb="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-				data-transition="fade">
-
-				<!-- Main image -->
-				<img src="../assets/images/product/home/slider-background.jpg" class="rev-slidebg">
-
-				<!-- Title -->
-				<div class="tp-caption title"
-					data-responsive_offset="off"
-					data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":500,"ease":"Power3.easeInOut"},{"delay":"wait","speed":800,"to":"auto:auto","ease":"Power3.easeInOut"}]'
-					data-width="['306','312','auto','86%','90%','94%']"
-					data-x="['left','left','left','center','center','center']" data-hoffset="[52,48,48,-7%,-5%,-3%]"
-					data-y="top" data-voffset="[118,118,124,60,54,42]"
-					data-whitespace="normal"
-					data-fontsize="[62,62,62,62,54,54]"
-					data-textAlign="left,left,left,center,center,center">
-						Don’t Slack on Security
-				</div>
-
-				<!-- UI Illustration -->
-				<div class="tp-caption"
-					data-type="image"
-					data-frames='[{"delay":400,"speed":1000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-					data-x="['left','left','left','center','center','left']"
-					data-y="bottom"
-					data-hoffset="[52,52,52,-10,-12,20]"
-					data-voffset="[-440,-440,-280,-348,-548,-524]">
-						<img src="../assets/images/product/home/slack-ui%402x.png" data-ww="['1024px','1024px','800px','600px','1024px','1024px']" data-hh="['725px','725px','557px','410px','725px','725px']">
-				</div>
-
-				<div class="tp-caption"
-					data-type="shape"
-					data-responsive_offset="on"
-					data-frames='[{"delay":200,"speed":1000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-					data-width="['220','220','220','80%','80%','90%']"
-					data-x="['left','left','left','left','center','center']"
-					data-y="top"
-					data-hoffset="[40,40,40,60,0%,0%]"
-					data-voffset="[306,306,306,688,632,720]"
-					data-paddingtop="8"
-					data-paddingright="8"
-					data-paddingbottom="8"
-					data-paddingleft="8"
-					data-whitespace="normal"
-					data-textAlign="['inherit','inherit','inherit','center','center','center']"
-					style="overflow:visible;">
-						<a href="zh/product/security-and-compliance.html"
-							class="material-button-raised"
-							style="display:block"
-							data-sym-event-category="CTAs"
-							data-sym-event-action="Hero CTA Security">Learn More</a>
-				</div>
-
-				<div class="tp-caption"
-					data-type="shape"
-					data-responsive_offset="on"
-					data-frames='[{"delay":300,"speed":1000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-					data-width="['220','220','220','80%','80%','90%']"
-					data-x="['left','left','left','right','center','center']"
-					data-y="top"
-					data-hoffset="[268,268,268,60,0%,0%]"
-					data-voffset="[306,306,306,688,696,784]"
-					data-paddingtop="8"
-					data-paddingright="8"
-					data-paddingbottom="8"
-					data-paddingleft="8"
-					data-whitespace="normal"
-					data-textAlign="['inherit','inherit','inherit','center','center','center']"
-					style="overflow:visible;">
-						<a href="#"
-							class="material-button-raised"
-							style="display:block"
-							class="btn btn-primary-home sym-cta-contact"
-							data-sym-event-category="CTAs"
-							data-sym-event-action="Hero CTA Contact Us"
-							data-toggle="modal"
-							data-target="#sym-modal-contact-form-generic">Contact Us</a>
-				</div>
-
-				<!-- Benefit Card -->
-				<div class="tp-caption tp-resizeme benefit-card"
-					data-responsive_offset="on"
-					data-frames='[{"delay":500,"speed":1000,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":150,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-					data-width="['auto','auto','auto','96%','96%','96%']"
-					data-height="['auto','auto','auto','408','368','464']"
-					data-x="['right','right','right','center','center','center']"
-					data-y="['top','top','top','top','top','top']"
-					data-hoffset="[40,40,40,-2%,-2%,-2%]"
-					data-voffset="[118,118,98,240,240,240]"
-					data-whitespace="normal"
-					data-textAlign="center">
-						<img class="security-seal" src="../assets/images/product/home/security-seal.svg" data-ww="['82px','82px','82px','82px','82px','82px']" data-hh="['96px','96px','96px','96px','96px','96px']" />
-						<p>Symphony is trusted by 350 companies to communicate the most sensitive information on the planet.</p>
-				</div>
-
-			</li><!--/Slide 4-->
-
-
-
-			<!--
-			==========================
-			   Slide 5 (Compliance)
-			==========================
-			-->
-			<li class="slide-benefit slide-benefit-teams"
-				data-thumb="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-				data-transition="fade">
-
-				<!-- Main image -->
-				<img src="../assets/images/product/home/slider-background.jpg" class="rev-slidebg">
-
-				<!-- Title -->
-				<div class="tp-caption title"
-					data-responsive_offset="off"
-					data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":500,"ease":"Power3.easeInOut"},{"delay":"wait","speed":800,"to":"auto:auto","ease":"Power3.easeInOut"}]'
-					data-width="['536','520','496','86%','90%','94%']"
-					data-x="['left','left','left','center','center','center']" data-hoffset="[52,48,48,-7%,-5%,-3%]"
-					data-y="top" data-voffset="[118,118,124,60,54,42]"
-					data-whitespace="normal"
-					data-fontsize="[62,60,58,58,54,48]"
-					data-textAlign="left,left,left,center,center,center">
-						Don’t Let Teams Fail on Compliance
-				</div>
-
-				<!-- UI Illustration -->
-				<div class="tp-caption"
-					data-type="image"
-					data-frames='[{"delay":400,"speed":1000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-					data-x="['left','left','left','center','center','left']"
-					data-y="bottom"
-					data-hoffset="[52,52,52,-10,-12,20]"
-					data-voffset="[-440,-440,-280,-348,-548,-524]">
-						<img src="../assets/images/product/home/teams-ui%402x.png" data-ww="['1024px','1024px','800px','600px','1024px','1024px']" data-hh="['725px','725px','557px','410px','725px','725px']">
-				</div>
-
-				<!-- Learn More Button -->
-				<div class="tp-caption"
-					data-type="shape"
-					data-responsive_offset="on"
-					data-frames='[{"delay":200,"speed":1000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-					data-width="['220','220','220','80%','80%','90%']"
-					data-x="['left','left','left','left','center','center']"
-					data-y="top"
-					data-hoffset="[40,40,40,60,0%,0%]"
-					data-voffset="[306,306,306,688,632,720]"
-					data-paddingtop="8"
-					data-paddingright="8"
-					data-paddingbottom="8"
-					data-paddingleft="8"
-					data-whitespace="normal"
-					data-textAlign="['inherit','inherit','inherit','center','center','center']"
-					style="overflow:visible;">
-						<a href="zh/product/security-and-compliance.html"
-							class="material-button-raised"
-							style="display:block"
-							data-sym-event-category="CTAs"
-							data-sym-event-action="Hero CTA Security">Learn More</a>
-				</div>
-
-				<!-- Contact Us Button -->
-				<div class="tp-caption"
-					data-type="shape"
-					data-responsive_offset="on"
-					data-frames='[{"delay":300,"speed":1000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-					data-width="['220','220','220','80%','80%','90%']"
-					data-x="['left','left','left','right','center','center']"
-					data-y="top"
-					data-hoffset="[268,268,268,60,0%,0%]"
-					data-voffset="[306,306,306,688,696,784]"
-					data-paddingtop="8"
-					data-paddingright="8"
-					data-paddingbottom="8"
-					data-paddingleft="8"
-					data-whitespace="normal"
-					data-textAlign="['inherit','inherit','inherit','center','center','center']"
-					style="overflow:visible;">
-						<a href="#"
-							class="material-button-raised"
-							style="display:block"
-							class="btn btn-primary-home sym-cta-contact"
-							data-sym-event-category="CTAs"
-							data-sym-event-action="Hero CTA Compliance"
-							data-toggle="modal"
-							data-target="#sym-modal-contact-form-generic">Contact Us</a>
-				</div>
-
-				<!-- Benefit Card -->
-				<div class="tp-caption tp-resizeme benefit-card"
-					data-responsive_offset="on"
-					data-frames='[{"delay":500,"speed":1000,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":150,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-					data-width="['auto','auto','auto','96%','96%','96%']"
-					data-height="['auto','auto','auto','408','368','464']"
-					data-x="['right','right','right','center','center','center']"
-					data-y="['top','top','top','top','top','top']"
-					data-hoffset="[40,40,40,-2%,-2%,-2%]"
-					data-voffset="[118,118,98,240,240,240]"
-					data-whitespace="normal"
-					data-textAlign="center">
-						<img class="security-seal" src="../assets/images/product/home/security-seal.svg" data-ww="['82px','82px','82px','82px','82px','82px']" data-hh="['96px','96px','96px','96px','96px','96px']" />
-						<p>Symphony's collaboration compliance controls are trusted by 375,000 regulated users.</p>
-				</div>
-
-			</li><!--/Slide 5-->
-
-		</ul>
-		<div class="tp-bannertimer tp-bottom" style="height: 5px; background-color: rgba(0, 0, 0, 0.25);"></div>
-	</div><!-- END REVOLUTION SLIDER -->
-</div><!-- END REVOLUTION SLIDER WRAPPER --></div>
-
-<div class="container-fluid sym-trusted-brands">
-	<div class="container">
-		<div class="row">
-			<h3>Trusted by these Brands</h3>
-			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-				<img id="sym-logo-crossfade-1" class="img-responsive" src="../assets/images/product/home/color-logos/credit-suisse.png" />
-			</div>
-			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-				<img id="sym-logo-crossfade-2" class="img-responsive" src="../assets/images/product/home/color-logos/goldman-sachs.png" />
-			</div>
-			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-				<img id="sym-logo-crossfade-3" class="img-responsive" src="../assets/images/product/home/color-logos/hsbc.png" />
-			</div>
-			<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-				<img id="sym-logo-crossfade-4" class="img-responsive" src="../assets/images/product/home/color-logos/jefferies.png" />
-			</div>
-		</div>
-	</div>
+    <div class="banner-item animated" data-classin="fadeIn" data-classout="fadeOut delay10" data-time="400"
+         data-thumb="${ctx}/assets/templets/banner/img/aboutus-banner1-2x-small.jpg">
+        <div class="banner-img"></div>
+        <div class="banner-text vbox box-h-center box-v-center">
+            <div style="margin-left: 33%;">
+                <div class="animated" data-classin="fadeInDown delay5 duration5"
+                     data-classout="fadeOutUp delay duration5">
+                    拥抱 <em>三一 </em> 一路同行
+                </div>
+                <div data-role="entext" class="animated" data-classin="fadeInUp delay7 duration5"
+                     data-classout="fadeOutDown delay duration5" style="margin-top:5%">
+                    三 一 金 服
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner-item animated" data-classin="fadeIn" data-classout="fadeOut delay10" data-time="400"
+         data-thumb="${ctx}/assets/templets/banner/img/aboutus-banner2-2x-small.jpg">
+        <div class="banner-img"></div>
+        <div class="banner-text vbox box-h-center box-v-center">
+            <div style="margin-left: 7%;">
+                <div class="animated" data-classin="fadeInDown delay5 duration5"
+                     data-classout="fadeOutUp delay duration5">
+                    连接您与智慧的桥梁
+                </div>
+                <div class="animated" data-role="entext" data-classin="fadeInUp delay7 duration5"
+                     data-classout="fadeOutDown delay duration5" style="margin-top:2%">
+                    三 一 金 服
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner-tool">
+    </div>
+    <div class="banner-prev">
+    </div>
+    <div class="banner-next">
+    </div>
 </div>
 
-<div class="container-fluid sym-home-communicate">
-	<div class="container">
-		<div class="sym-row">
-			<div class="sym-col-1">
-
-				<div class="sym-wrapper">
-					<h2 class="wow fadeInDown" data-wow-offset="200" data-wow-duration="1s">Communicate and collaborate, securely</h2>
-					<p class="wow fadeInDown" data-wow-offset="200" data-wow-duration="1s">Communicate securely and effectively with integrated messaging, file sharing, audio/video conferencing and screen sharing. Protect your data with end-to-end encryption and comply with global regulations both within and across enterprises.</p>
-					<a href="product/messaging-and-productivity.html"
-						data-sym-event-category="CTAs"
-						data-sym-event-action="Home CTA Product"
-						class="wow fadeInDown"
-						data-wow-offset="200"
-						data-wow-duration="1s"
-						data-wow-delay=".5s">View product features &rarr;</a>
-				</div>
-
-			</div>
-			<div class="sym-col-2">
-				<img src="../assets/images/product/home/communicate-and-collaborate-securely-with-symphony.png" class="wow fadeInRight" data-wow-offset="200" data-wow-duration="1s">
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="container-fluid sym-home-apps">
-	<div class="container">
-		<div class="sym-row">
-			<div class="sym-col-1">
-				<img src="../assets/images/product/home/streamline-workflows-with-symphony-apps-bots-and-integrations.png" class="wow fadeInLeft" data-wow-offset="55" data-wow-duration="1s">
-			</div>
-			<div class="sym-col-2">
-				<h2 class="wow fadeInDown" data-wow-offset="55" data-wow-duration="1s">Streamline workflows with apps, bots, and integrations</h2>
-				<p class="wow fadeInDown" data-wow-offset="55" data-wow-duration="1s">Simplify daily workflows and save time with Symphony bots, integrations, and partner applications. Leverage the developer toolkit to extend the platform, bringing speed and agility to your entire firm.</p>
-				<a href="https://workflow.symphony.com/"
-					data-sym-event-category="CTAs"
-					data-sym-event-action="Home CTA Apps"
-					class="wow fadeInDown"
-					data-wow-offset="55"
-					data-wow-duration="1s">Explore the Symphony Market &rarr;</a>
-			</div>
-		</div>
-	</div>
-
-	<div id="sym-swiper-home-container" class="swiper-container container">
-
-		<div class="swiper-wrapper">
-			<div class="swiper-slide">
-				<img src="../assets/images/web/logo/partner-logos/1/ChartIQ.png">
-			</div>
-			<div class="swiper-slide">
-				<img src="../assets/images/web/logo/partner-logos/DowJones.png">
-			</div>
-			<div class="swiper-slide">
-				<img src="../assets/images/web/logo/partner-logos/1/FinTechStudios.png">
-			</div>
-			<div class="swiper-slide">
-				<img src="../assets/images/web/logo/partner-logos/1/GitHub.png">
-			</div>
-			<div class="swiper-slide">
-				<img src="../assets/images/web/logo/partner-logos/HarvestExchange.png">
-			</div>
-			<div class="swiper-slide">
-				<img src="../assets/images/web/logo/partner-logos/InfrontAnalytics.png">
-			</div>
-			<div class="swiper-slide">
-				<img src="../assets/images/web/logo/partner-logos/JIRASoftware.png">
-			</div>
-			<div class="swiper-slide">
-				<img src="../assets/images/web/logo/partner-logos/S%26P.png">
-			</div>
-			<div class="swiper-slide">
-				<img src="../assets/images/web/logo/partner-logos/1/Salesforce.png">
-			</div>
-			<div class="swiper-slide">
-				<img src="../assets/images/web/logo/partner-logos/Selerity.png">
-			</div>
-			<div class="swiper-slide">
-				<img src="../assets/images/web/logo/partner-logos/Zapier.png">
-			</div>
-		</div>
-
-		<div class="swiper-button-next"></div>
-		<div class="swiper-button-prev"></div>
-
-	</div>
-
-</div>
-
-<div class="container-fluid sym-home-security-ds">
-	
-	<div class="container">
-		<div class="sym-row">
-			<div class="sym-col-1">
-				<h2 class="wow fadeInDown" data-wow-offset="55" data-wow-duration="1s">Secure and open</h2>
-				<p class="wow fadeInDown" data-wow-offset="55" data-wow-duration="1s">Secure your data in motion and at rest with foundational security architecture leveraging AES-256, RSA-2048, and SHA-256. Maintain data ownership with the option to manage your own encryption keys, while complying with global compliance regulations.</p>
-				<a href="zh/product/security-and-compliance.html"
-					data-sym-event-category="CTAs"
-					data-sym-event-action="Home CTA Security"
-					class="wow fadeInDown"
-					data-wow-offset="55"
-					data-wow-duration="1s">Learn more about security and compliance &rarr;</a>
-			</div>
-			<div class="sym-col-2">
-				<img class="img-responsive wow fadeInRight" src="../assets/images/product/home/symphony-is-secure-and-open.png" data-wow-offset="55" data-wow-duration="1s">
-			</div>
-		</div>
-	</div>
-
-</div>
-
-<div id="sym-home-ds-quote">
-
-		<div class="swiper-wrapper">
-
-			<div class="swiper-slide">
-				<q>Digital transformation is central to BNP Paribas Global Markets’ strategy, and collaboration with fintechs is a crucial part of that process. Forming agile partnerships with exciting and innovative companies like Symphony helps us deliver an exceptional service to clients, and remain their partner of choice in a changing world.</q>
-				<hr>
-				<p>Olivier Osty, Executive Head of Global Markets, BNP Paribas.</p>
-				<a data-sym-event-category="CTAs" data-sym-event-action="Home CTA Press Release May 2017" href="zh/press/releases/symphony-raises-63m-to-accelerate-both-global-expansion-and-platform-innovatio.html">Read the full press release &rarr;</a>
-			</div>
-
-			<div class="swiper-slide">
-				<q>Cross-company collaboration is critical to streamlining complex workflows and helping people work efficiently. There is vast potential for Symphony within our platforms and for workflow apps integrated with our services. We’ve already demonstrated how trade breaks can be resolved in Symphony and affirmed back to counterparties with MarkitSERV automatically updating the trade.</q>
-				<hr>
-				<p>Brad Levy, Managing Director, Head of Loans at IHS Markit and CEO of MarkitSERV</p>
-			</div>
-
-			<div class="swiper-slide">
-				<q>Symphony has made a step change in how all of the employees in our Corporate & Investment Bank interact, across the same platform as our clients. We look forward to further unlocking its potential as we integrate partner applications and APIs, and transform how we work – to be smarter, more secure and more efficient than we already are today.</q>
-				<hr>
-				<p>David Hudson, Managing Director and Head of Markets Execution at J.P. Morgan</p>
-			</div>
-
-		</div>
-
-		<div class="swiper-pagination"></div>
-
-		<div class="swiper-button-next"></div>
-		<div class="swiper-button-prev"></div>
-
-</div>
-
-<div class="container-fluid sym-home-ds-solutions">
-
-	<div class="container">
-
-		<img src="../assets/images/web/home/business-solutions.jpg">
-
-		<div class="sym-row">
-			<div class="sym-col-1">
-				<h2>Solutions</h2>
-				<p>See how customers are using Symphony to solve today’s complex business challenges.</p>
-				<a href="solutions.html"
-					data-sym-event-category="CTAs"
-					data-sym-event-action="Home CTA Solutions">Find your solution &rarr;</a>
-			</div>
-
-			<div class="sym-col-2"></div>
-
-		</div>
-	</div>
-
-</div>
-
-<div class="container-fluid sym-ds-footer-cta">
-
-	<div class="sym-overlay"></div>
-
-	<div class="sym-content">
-		<h1>Experience the power of Symphony</h1>
-		<p>Request more information or try Symphony now.</p>
-		<div class="sym-cta-buttons">
-			<a href="javascript:;"
-				class="btn btn-primary-home sym-cta-contact"
-				data-sym-event-category="CTAs"
-				data-sym-event-action="Product Footer CTA Contact Us"
-				data-toggle="modal"
-				data-target="#sym-modal-contact-form-generic">Request Info</a>
-			
-			<a href="signup.html"
-				class="btn btn-default-ghost sym-cta-signup"
-				data-sym-event-category="CTAs"
-				data-sym-event-action="Product Footer CTA Sign Up">Try it Now</a>
-		</div>
-	</div>
-
-</div>
-<div id="sym-modal-contact-form-generic" class="modal fade" role="dialog" aria-labelledby="gridSystemModalLabel" aria-hidden="true">
-	<div class="modal-dialog">
-	  <div class="modal-content" style="border-radius: 0">
-
-			<div class="modal-header" style="border-bottom: none">
-			  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			</div>
-
-			<div class="modal-body">
-
-				
-							  <!--[if lte IE 8]>
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
-<![endif]-->
-<script charset="utf-8" type="text/javascript" src="../js.hsforms.net/forms/v2.js"></script>
-<script>
-	var hsFormId = 'a368a969-e43a-497f-944e-c704ea3eaa4a';
-	var symFormLabel = 'contact-us';
-	hbspt.forms.create({ 
-		css: '',
-		portalId: '1890769',
-		formId: hsFormId,
-		onFormSubmit: function() {
-			afterHubspotSubmit(hsFormId, symFormLabel);
-		}
-	});
+<script type="text/javascript" src="${ctx}/assets/templets/banner/js/banner.js"></script>
+<script type="text/javascript">
+    $("#banner").THBanner();
 </script>
-			</div><!--/.modal-body-->
+<!--banner end-->
 
-		</div><!--/.modal-content-->
-	</div><!--/.modal-dialog-->
-</div><!--/.modal-->
+<div class="container linian-con">
+    <div class="title-comm">
+        <h3 class="welinain">源自三一、助力发展、科技创新</h3>
+        <p class="line"></p>
+        <p class="linh25">三一互联网，以创新科技驱动，以绝对的专业服务为前提和基石，将移动互联网、数据技术应用于智慧服务</p>
+        <p class="linh25">用科技，改善工作的效率；用科技，让优质的服务源惠及更多的家庭；用科技，让更多的人受惠于技术带来的改变</p>
+        <p class="linh25">三一金服，您事业的起点</p>
+    </div>
+    <div class="row linian-div">
 
-						<div class="container-fluid" id="sym-footer">
-	<div class="container">
+        <div class="col-lg-4  large-3 small-12">
+            <div class="col-div">
+                <figure class="chonggou-logo-icon ac-figure-icon"></figure>
+                <h4>科技</h4>
+                <div class="f12">为客户提供更高品质科技服务</div>
+                <div class="f12" style="margin-top: 2px;">帮助客户在科技进步中获益</div>
+            </div>
+        </div><!-- /.col-lg-4 -->
 
-		<div class="sym-menu">
-			<a href="zh/legal/privacy.html">Privacy Policy</a>
-			<a href="zh/legal/cookie-policy.html">Cookie Policy</a>
-			<a href="zh/legal/terms-of-service.html">Terms of Service</a>
-			<a href="https://support.symphony.com/" target="_blank" data-sym-event-action="Clicked Support Link (Footer)" data-sym-event-category="External Links">Support</a>
-			<a href="developers.html">Developers</a>
-			<a href="partners.html">Partners</a>
-		</div>
+        <div class="col-lg-4  large-3 small-12">
+            <div class="col-div">
+                <figure class="chuanxin-logo-icon ac-figure-icon"></figure>
+                <h4>创新</h4>
+                <div class="f12">协同现有技术体系，以主动服务客户为核心</div>
+                <div class="f12" style="margin-top: 2px;">更好的维护客户价值权益</div>
+            </div>
+        </div><!-- /.col-lg-4 -->
 
-		<div class="sym-social-icons">
-			<a href="https://twitter.com/symphony" target="_blank" class="sym-twitter" data-sym-event-action="Clicked Twitter Link" data-sym-event-category="External Links"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-			<a href="https://www.facebook.com/SymphonyComm/" target="_blank" class="sym-facebook" data-sym-event-action="Clicked Facebook Link" data-sym-event-category="External Links"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-			<a href="https://www.linkedin.com/company/symphonycomm" target="_blank" class="sym-linkedin" data-sym-event-action="Clicked LinkedIn Link" data-sym-event-category="External Links"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-			<a href="https://www.youtube.com/channel/UCbTXcU2U3IOEuVeqKbdOXCA" target="_blank" class="sym-youtube" data-sym-event-action="Clicked YouTube Link" data-sym-event-category="External Links"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-		</div>
+        <div class="col-lg-4  large-3 small-12">
+            <div class="col-div">
+                <figure class="chonggou-logo-icon ac-figure-icon"></figure>
+                <h4>服务</h4>
+                <div class="f12">以先进的服务理念</div>
+                <div class="f12" style="margin-top: 2px;">给消客户带来真正的服务</div>
+            </div>
+        </div><!-- /.col-lg-4 -->
+    </div>
 
-		<p class="sym-copyright">Copyright © 2018 Symphony Communication Services, LLC. All Rights Reserved</p>
-
-	</div>
-</div>			
-	<div class="sym-cookie-container-fluid">
-	<div class="sym-cookie-container">
-		<div class="row">
-			<div class="col-sm-9">
-				<p>We use cookies to ensure we give you the best experience on our website. If you continue without changing your settings, we'll assume that you are happy to receive cookies from this website. However, you can change your preferences by following the instructions contained in our <a href="zh/legal/cookie-policy.html" id="cookie-notify-link">Cookie Policy.</a></p>
-			</div>
-			<div class="col-sm-3">
-				<button class="btn btn-block btn-primary" id="cookie-notify-close">Close</button>
-			</div>
-		</div>
-	</div>
 </div>
 
-<script>
-$(document).ready(function() {
 
-	var status = Cookies.get('sym_cookie_notify');
-	if ( !(status == 'dismissed' || status == 'clicked') ) {
-		$('.sym-cookie-container-fluid').show();
-	}
+<div class="container">
+    <div class="title-comm">
+        <h3 class="welinain">三一互联网优质的技术服务团队</h3>
+        <p class="line"></p>
+    </div>
+    <div class="row">
+        <div class=" app-none" style="position:relative;">
+            <div class="mb-describe hbox box-v-center">
+                <div class="col-md-8" style="padding:0">
+                    <div  class="mb-ibox ">
 
-	$('#cookie-notify-close').on('click', function() {
-		Cookies.set('sym_cookie_notify', 'dismissed', { expires: 365 });
-		$('.sym-cookie-container-fluid').fadeOut();
-	})
+                        <a  class="cur">
+                            <div class=" "><img src=${ctx}/assets/templets/img/xietiaozhuanyuan1.jpg
+                                                                 class="img-responsive"></div>
+                        </a>
 
-	$('#cookie-notify-link').on('click', function() {
-		Cookies.set('sym_cookie_notify', 'clicked', { expires: 365 });
-	})
+                    </div>
+                </div>
+                <div id="mb-itxt" class="col-md-4">
+                    <div style="display: block;">
+                        <div class="kePublic-rightdiv">
+                            <div class="jiankangguwen-ico animated animateUp delay_1"></div>
+                            <div class="tuandui-title">
+                                <div class="animated animateUp delay_2">个人专属解决方案专家</div>
+                            </div>
+                            <div class="kePublic-cont-info animated animateUp delay_3">
+                                拥有多年技术服务与支持的工作经验，让您的沟通更有质量，帮助您获得更精准的技术服务
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-});
+        </div>
+
+        <div class="team_main_visual pc-none">
+            <div class="team_main_image">
+                <ul style="width:100% !important;">
+
+                    <li><img src=${ctx}/assets/templets/img/xietiaozhuanyuan1.jpg class="img-responsive"></li>
+
+                </ul>
+                <a href="javascript:;" id="btn_prev"></a>
+                <a href="javascript:;" id="btn_next"></a>
+            </div>
+            <div class="flicking_con team_textbox vbox box-v-center">
+                <div class="item-text on">
+                    <h4>个人专属解决方案专家</h4>
+                    <div class="kePublic-cont-text">拥有多年技术服务与支持的工作经验，让您的沟通更有质量，帮助您获得更精准的技术服务</div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="container">
+    <div class="title-comm">
+        <h3 class="welinain">三一互联网的愿景</h3>
+        <p class="line"></p>
+        <p class="mtop40">永怀专业信念，以前瞻视野，定义技术服务新未来</p>
+    </div>
+</div>
+
+
+<div class=" app-none">
+    <div style="background: url(${ctx}/assets/templets/img/about-yuanjing.jpg) 50% 0%; height: 420px;">
+        <div class="container">
+            <div class="row">
+                <div class="tuhuanyuanjing" style="text-align: center; color: rgba(255, 255, 255, 0.8)">
+                    <figure class="chonggou-logo-icon ac-figure-icon"></figure>
+                    <p class="text-white" style="margin-top: 3.2%;">三一互联网，协同于现有的服务体系，致力于构建更精准的技术服务模式</p>
+                    <p class="text-white">三一互联网，以信息技术为基础，移动互联网平台为工具组成的"技术服务团队"</p>
+                    <p>提供基于个人与公司的技术服务</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="pc-none">
+    <div class="hbox box-v-center"
+         style="background-image: url(${ctx}/assets/templets/img/about-yuanjing.jpg);  background-size: cover !important;z-index: 0; background-position: 50% 50% !important;    height: 260px !important;">
+        <div class="container">
+            <div class="row">
+                <div class="tuhuanyuanjing-app">
+                    <figure class="chonggou-logo-icon ac-figure-icon"></figure>
+                    <p class="text-white" style="margin-top: 3.2%; line-height: 24px;">
+                        三一互联网，协同于现有的服务体系，致力于构建更精准的服务模式。三一互联网，以信息技术为基础，移动互联网平台为工具组成的"技术服务团队"，提供基于个人与公司的技术服务</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div>
+
+<!-- footer begin -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="ac-gf-footer-legal">
+                <div class="footer-legal-links">
+
+                </div>
+                <div class="footer-beizhu">Copyright &copy; 2018 三一互联网</div>
+            </div>
+
+        </div>
+    </div>
+</footer>
+<div class="footer_app" style="display: none;"> Copyright &copy; 2018 三一互联网</div>
+
+
+
+
+<!--底部蒙层end-->
+<script type="text/javascript">
+    $(function () {
+        $(".navbar-toggle").click(function () {
+            $(this).toggleClass("click");
+            $(".bg-div").toggleClass("hide");
+            $("body").toggleClass("body-static");
+            $(".navbar-form a").toggleClass("active");
+            $(".navbar-collapse").slideToggle();
+        });
+        $(".bg-div").click(function () {
+            $(".navbar-toggle").trigger("click");
+        });
+
+        var top = ($(window).height() - $(".modal-content").height()) / 2;
+        $(".model-down").click(function () {
+            $(".modal-content").css({position: 'absolute', 'top': top});
+        });
+        $(".model-down-1").click(function () {
+            $(".modal-content").css({position: 'absolute', 'top': top});
+        });
+
+        $(".weixin-logo-icon").mouseleave(function () {
+            $(this).prev().find(".popover").removeClass("hover");
+        }).mouseenter(function () {
+            $(this).prev().find(".popover").addClass("hover");
+        });
+        $(".shouji-logo-icon").mouseleave(function () {
+            $(this).prev().find(".popover").removeClass("hover");
+        }).mouseenter(function () {
+            $(this).prev().find(".popover").addClass("hover");
+        });
+
+        var navAgent = navigator.userAgent.toLowerCase();
+        if (navAgent.indexOf("thjk-app-ios") > -1 || navAgent.indexOf("thdoctor-app-ios") > -1 || navAgent.indexOf("thjk-app-android") > -1 || navAgent.indexOf("thdoctor-app-android") > -1) {
+            $(".navbar-form.navbar-right").hide();
+            $(".nav > li:last-child a").css({"border-bottom": "0"});
+        }
+
+        $(".navbar-nav > li.click a").removeAttr("href");
+    });
 </script>
-	<div id="sym-banner" data-sym-banner data-sym-banner-id>
-		<a id="sym-banner-cta"
-		data-sym-banner-cta
-		data-sym-event-category="CTAs"
-		data-sym-event-action
-		class="btn btn-primary"
-		target="_blank"></a>
-	</div>
-
-	<script>
-var imgArray = [
-		'jp-morgan',
-		'kepler',
-		'morgan-stanley',
-		'natixis',
-		'nomura',
-		'rbc',
-		'ab-sanford',
-		'alliance-bernstein',
-		'bofaml',
-		'blackrock',
-		'bnp-paribas',
-		'bny-mellon',
-		'cimb-bank',
-		'citi',
-		'clsa',
-		'credit-suisse',
-		'goldman-sachs',
-		'hsbc',
-		'jefferies',
-	];
-var base = "../assets/images/product/home/color-logos/index.html";
-var interval = 3000;
-var imgKey = 0;
-imgArray.forEach(function(img){
-	new Image().src = base + img + '.png';
-	// caches images, avoiding white flash between background replacements
-});
-
-var logoCrossfade = setInterval(function() {
-	id = Math.floor( Math.random() * 4 ) + 1;
-	$('#sym-logo-crossfade-' + id).attr('src', base + imgArray[imgKey] + '.png');
-	if (imgKey < imgArray.length - 1) {
-		imgKey++;
-	} else {
-		imgKey = 0;
-	}
-}, interval)
+<link href="${ctx}/assets/templets/skrollr/theme-cobalt.css" rel="stylesheet" type="text/css" media="all">
+<script src="${ctx}/assets/templets/skrollr/jquery.plugin.min.js"></script>
+<script src="${ctx}/assets/templets/skrollr/jquery.flexslider-min.js"></script>
+<script src="${ctx}/assets/templets/skrollr/smooth-scroll.min.js"></script>
+<script src="${ctx}/assets/templets/skrollr/skrollr.min.js"></script>
+<script src="${ctx}/assets/templets/skrollr/spectragram.min.js"></script>
+<script src="${ctx}/assets/templets/skrollr/scrollReveal.min.js"></script>
+<script src="${ctx}/assets/templets/skrollr/isotope.min.js"></script>
+<script src="${ctx}/assets/templets/skrollr/lightbox.min.js"></script>
+<script src="${ctx}/assets/templets/skrollr/scripts.js"></script>
+<script type="text/javascript">
+    $(function () {
+        var itemdiv = $(".i-item-con .col-lg-4");
+        itemdiv.hover(function () {
+            $(this).addClass("item-active").siblings().removeClass("item-active");
+        }).hover(function () {
+        }, function () {
+            $(this).removeClass("item-active");
+        });
+        var itemdiv = $(".team-person");
+        itemdiv.hover(function () {
+            $(this).addClass("hover").siblings().removeClass("hover");
+        }).hover(function () {
+        }, function () {
+            $(this).removeClass("hover");
+        });
+    });
 </script>
-
+<script type="text/javascript" src="${ctx}/assets/templets/javascript/bootstrap.min.js"></script>
 </body>
 
-<!-- Mirrored from symphony.com/zh by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Dec 2018 02:03:21 GMT -->
+
 </html>

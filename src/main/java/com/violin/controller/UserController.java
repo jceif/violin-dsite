@@ -18,7 +18,7 @@ public class UserController {
         UserInfo userInfo=new UserInfo();
         userInfo.setAge(12);;
         userInfo.setPhone("138000123");
-        userInfoService.insertUserInfo(userInfo);
+        //userInfoService.insertUserInfo(userInfo);
         return  "index";
     }
 }
