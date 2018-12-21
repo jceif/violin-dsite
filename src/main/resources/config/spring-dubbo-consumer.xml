@@ -6,9 +6,13 @@
 http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd ">
 
     <dubbo:application name="dsite-consumer"/>
-    <dubbo:registry id="dsite" address="N/A"/>
-    <dubbo:protocol name="dubbo" port="20332"/>
+    <!--<dubbo:registry id="dsite" address="N/A"/>-->
+     <dubbo:registry id="zookeeper" address="zookeeper://180.76.187.220:2181"/>
+    <!--<dubbo:registry id="dsite" address="zookeeper://zookeeper.31jinfu.com:2181"/>-->
+
+    <!--<dubbo:protocol name="dubbo" port="20332"/>-->
     <dubbo:consumer timeout="50000" />
+
 
 
     <dubbo:reference   id="companyInfoService" interface="com.violin.service.companyinfo.CompanyInfoService"/>
@@ -18,7 +22,8 @@ http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubb
     <dubbo:reference   id="newsService" interface="com.violin.service.news.NewsService"/>
     <dubbo:reference   id="productTypeService" interface="com.violin.service.producttype.ProductTypeService"/>
     <dubbo:reference   id="userAccountService" interface="com.violin.service.useraccount.UserAccountService"/>
-    <dubbo:reference   id="userInfoService" interface="com.violin.service.userinfo.UserInfoService"/>
+    <dubbo:reference   id="userInfoService" interface="com.violin.service.userinfo.UserInfoService"  />
     <dubbo:reference   id="violinInfoService" interface="com.violin.service.violininfo.ViolinInfoService"/>
+    <!-- -Ddubbo.resolve.file=D:\work\code\dsite\src\main\resources\properties\dubbo.properties-->
 </beans>
 

@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import java.util.Calendar;
+
 @Controller
 @RequestMapping("/user")
 public class UserController {
@@ -18,7 +20,8 @@ public class UserController {
         UserInfo userInfo=new UserInfo();
         userInfo.setAge(12);;
         userInfo.setPhone("138000123");
-        //userInfoService.insertUserInfo(userInfo);
+        userInfo.setRegisterTime(Calendar.getInstance().getTime());
+        userInfoService.insertUserInfo(userInfo);
         return  "index";
     }
 }

@@ -10,6 +10,7 @@
             http://www.springframework.org/schema/context
             http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd"
        default-lazy-init="true">
+    <import resource="spring-dubbo-consumer.xml"/>
 
 
     <!-- 引入外部properties文件 -->
@@ -18,6 +19,7 @@
 
     <!-- 添加注解驱动 -->
     <mvc:annotation-driven />
+
 
     <context:annotation-config />
 
@@ -31,6 +33,7 @@
         <context:include-filter type="annotation" expression="org.springframework.stereotype.Repository" />
         <context:include-filter type="annotation" expression="org.springframework.scheduling.annotation.Async" />
     </context:component-scan>
+
 
 
 
