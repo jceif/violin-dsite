@@ -6,11 +6,10 @@
 http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd ">
 
     <dubbo:application name="dsite-consumer"/>
-    <!--<dubbo:registry id="dsite" address="N/A"/>-->
-     <dubbo:registry id="zookeeper" address="zookeeper://180.76.187.220:2181"/>
-    <!--<dubbo:registry id="dsite" address="zookeeper://zookeeper.31jinfu.com:2181"/>-->
+    <dubbo:registry id="dsite" address="N/A"/>
+    <!--<dubbo:registry id="zookeeper" address="zookeeper://180.76.187.220:2181"/>-->
 
-    <!--<dubbo:protocol name="dubbo" port="20332"/>-->
+    <dubbo:protocol name="dubbo" port="20332"/>
     <dubbo:consumer timeout="50000" />
 
 
