@@ -1,14 +1,7 @@
-<%--<jsp:include page="templet/header.jsp"></jsp:include>--%>
-
-
-
 <%@ include file="templet/header.jsp"%>
 
 <body class="html front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-14 node-type-front-page i18n-en has-cookie front-page">
 
-<script>
-    var active_country = "DK";
-</script>
 
 
 <div class="top-wrapper">
@@ -1086,4 +1079,7 @@
 
 <%--<jsp:include page="templet/footer.jsp.jsp"></jsp:include>--%>
 
-<%@ include file="templet/header.jsp"%>
+<%@ include file="templet/footer.jsp"%>
+
+</body>
+</html>
